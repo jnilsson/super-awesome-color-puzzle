@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="images/icons-192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="images/icons-512.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Color Puzzle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jsGradient.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <h1><blue>Super</blue><br><green>Awesome</green><br><red>Color</red><br><yellow>Puzzle</yellow></h1>
+        <div id="newGame" class="button" onClick="window.location.reload();">New game<br><b>5x5</b></div>
+        <div id="moves" class="button">Moves<br><b>0</b></div>
+      </div>
+      <canvas id="myCanvas"></canvas>
+    </div>
+  </body>
+</html>
