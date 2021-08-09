@@ -1,1 +1,1 @@
-# super-awesome-color-puzzle
+# Super Awesome Color Puzzle
