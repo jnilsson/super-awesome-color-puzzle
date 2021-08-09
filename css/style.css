@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  user-select: none;
+  overflow: hidden;
+}
+
+body {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+blue {
+}
+
+green {
+}
+
+yellow {
+}
+
+red {
+}
+
+b{
+  font-size: 2em;
+}
+
+h1 {
+  color: #f5f6fa;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+  flex: auto;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+.button {
+  text-align: center;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #9c88ff;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+
+#newGame {
+  cursor: pointer;
+}
+
+#menu {
+  background-color: #333;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: center;
+}
